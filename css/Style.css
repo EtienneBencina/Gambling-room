@@ -1,0 +1,209 @@
+body {
+  background-image: url("../images/bg.jpg");
+
+  background-size: cover;
+}
+
+@font-face {
+  font-family: Zins;
+  src: url(../font/SaintCarell_PERSONAL_USE_ONLY.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Misologist;
+  src: url(../font/Empire.ttf);
+  font-weight: bold;
+}
+
+/* Oblikovanje glave obrazca */
+#Header {
+  margin-top: 10%;
+  margin: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+#Obrazec {
+  margin-top: 10%;
+}
+
+#dice {
+  padding: 15px;
+  height: 150px;
+}
+
+#sredni {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  padding: 0 45px;
+}
+
+.imena {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+#player1 {
+  height: 30px;
+  width: 150px;
+  font-size: 20px;
+}
+
+#player2 {
+  height: 30px;
+  width: 150px;
+  font-size: 20px;
+}
+
+#player3 {
+  height: 30px;
+  width: 150px;
+  font-size: 20px;
+}
+
+#dNum {
+  height: 30px;
+  width: 80px;
+  font-size: 20px;
+}
+
+#rNum {
+  height: 30px;
+  width: 80px;
+  font-size: 20px;
+}
+
+.numero {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.naslov {
+  margin: 0;
+  position: absolute;
+
+
+  font-family: Zins;
+  color: #ffffff;
+  font-size: 105px;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #FFD700,
+    0 0 82px #FFD700, 0 0 92px #FFD700, 0 0 102px #FFD700, 0 0 151px #FFD700;
+}
+
+.num {
+  font-size: 30px;
+}
+
+hr {
+  border: 2px solid darkgray;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+#wrapper {
+  margin-top: 50%;
+  border: solid darkgray 1px;
+  margin: auto;
+  width: 945px;
+  /*background-color: white;*/
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+
+  background-color: grey;
+  opacity: 0.7;
+}
+
+.player {
+  margin: 5px;
+  width: 250px;
+  padding: 20px 10px;
+
+  display: inline-block;
+  text-align: center;
+}
+
+.playerk {
+  margin: 10px;
+  width: 250px;
+  padding: 20px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+#start {
+
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 0px 8px -2px #c3e3f1;
+  border-radius: 10px;
+  background-color: #e4c768;
+  border: solid 2px #ffffff;
+  color: #000000;
+  border: 0;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: Misologist;
+}
+
+.num {
+  margin: 10px;
+  display: inline-block;
+  width: 251px;
+  padding: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  padding: 2px;
+
+  background-color: lightgray;
+}
+
+#gumb {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightgray;
+  border-radius: 5px;
+
+  margin-bottom: 5px;
+  opacity: 0.7;
+}
+
+#buuton {
+  text-align: center;
+}
+
+#runda {
+  text-align: center;
+  width: 150px;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+#redirekt {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 5px;
+  width: 300px;
+}
